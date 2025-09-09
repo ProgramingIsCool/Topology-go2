@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Topology>
+  <CI name="SUP_PR1">
+    <CI name="Cronjobs">
+      <CI name="Archive"></CI>
+    </CI>
+  </CI>
+  <CI name="SAS_PR1">
+    <CI name="Cronjobs">
+      <CI name="Archive"></CI>
+    </CI>
+    <CI name="Process">
+      <CI name="node.js"></CI>
+      <CI name="node.js"></CI>
+      <CI name="node.js"></CI>
+      <CI name="oo_central"></CI>
+    </CI>
+  </CI>
+</Topology>
+
+max 3 level down
