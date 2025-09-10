@@ -8,8 +8,8 @@ import (
 // BuildTopologyFromData accepts loaded file data (as []byte)
 // and constructs a Topology tree.
 // It parses each line, splits by ";", and ensures nodes are created/linked.
-func BuildTopologyFromData(data []byte) (*Topology, error) {
-	lines := strings.Split(string(data), "\n")
+func BuildTopologyFromData(data string) (*Topology, error) {
+	lines := strings.Split(data, "\n")
 	t := &Topology{}
 
 	for _, line := range lines {
