@@ -1,7 +1,0 @@
-SUP_PR1;SUP_PR1;Cronjobs
-SUP_PR1;Cronjobs;Archive
-SAS_PR1;SAS_PR1;Cronjobs
-SAS_PR1;Cronjobs;Archive
-SAS_PR1;SAS_PR1;Process
-SAS_PR1;Process;node.js 
-SAS_PR1;Process;oo_central
